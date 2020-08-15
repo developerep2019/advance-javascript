@@ -2,7 +2,6 @@
 False type values :
 0
 ''
-undefined
 NaN
 false
 Truthy Values :
@@ -16,7 +15,7 @@ Truthy Values :
 
 const age = 4;
 // const name = ' ';
-let name = 'false';
+let name = undefined;
 console.log(name);
 if(name) {
     console.log('Condition is true')
